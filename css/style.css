@@ -30,6 +30,18 @@ header {
   color: #FFFF33;
 }
 
+a {
+  display:block;
+}
+
+footer {
+  background-image: url("../images/bubbles4.jpg");
+  display: block;
+  font-size:24;
+  font-family: 'Droid Sans', sans-serif;
+  text-align: center;
+}
+
 strong {
   font-size: 28;
   color: #FFFFAA;
@@ -38,7 +50,7 @@ strong {
 .bar {
   clear: both;
   height: 0.5em;
-  font-size: 8;
+  font-size: 12;
   color: black;
   line-height: 0;
   display:block;

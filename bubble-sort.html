@@ -11,17 +11,33 @@
     </header>
     <main>
       <article class='main-article'>
-        <p>This page will teach you about a specific algorithm used to sort arrays of data, called the <strong>"Bubble Sort."</strong> It is an iterative process in which a piece of data is compared to it's adjacent piece.  If they are in the wrong order, they are swapped.  This process is repeated until no more swaps are made, which indicates that the sorting is complete!</p>
-        <p>Sound complicated? </p>
-        <p> It's actually one of the more simple sorting methods to conceptualize visually.  Here's an example: </p>
+        <section>
+          <p>This page will teach you about a specific algorithm used to sort arrays of data, called the <strong>"Bubble Sort."</strong> It is an iterative process in which a piece of data is compared to it's adjacent piece.  If they are in the wrong order, they are swapped.  This process is repeated until no more swaps are made, which indicates that the sorting is complete!</p>
+          <p>Sound complicated? </p>
+          <p> It's actually one of the  more simple sorting methods to   conceptualize visually.  Here's an example: </p>
+        </section>
         <section id="sorting-animation">
         </section>
         <section class="button-section">
           <button id="start-button">Start Animation</button>
           <button id="randomize-button">Randomize</button>
         </section>
+        <section>
+          <h1> What just happened? </h1>
+          <p> Here's how you do it, in leyman's terms:
+           Take the last element of the list, and compare it to the one above it.  If it's value is less, swap 'em! Go to the next to last element, and do the same thing.  Repeat that until you get to the top of the list.</p>
+           <p> You can see that after the first pass, the element with the smallest value has 'bubbled' up to the top!  So, we repeat the entire process, until no more swaps were made.   Once that's happened, we are DONE! </p>
+           <p>How efficient is this sorting algorithm?  Not very, when compared to other sorting methods. Check out the links below for info on other sorting methods.  You may have noticed that the bubble sort iterates through all the elements on each pass, so for every additional element we sort, It can theoretically have to swap the entire list again.  For this reason, the time it takes is a function of the square of the number of elements.  This type of behavior is known in 'Big-O' notation as <strong> O(n<sup>2</sup>)</strong>, where 'n' is the number of elements we need to sort.</p>
+           <p>We sincerely hope you enjoyed this thorough tutorial on bubble-sorting. Now you can go spend hours making your own bubble-sort. Try it with a giant list (ie millions of data points), and you can have <strong>hours</strong> of fun watching it sort! Yay!</p>
+        </section>
       </article>
     </main>
+    <footer>
+      <p>Special thanks to the following websites for doing a great job explaining this algorithm, as well as others.  Check them out for even more sorting fun!</p>
+      <a href="http://www.sorting-algorithms.com">Sorting-algorithms.com</a>
+      <a href="http://bigocheatsheet.com/">Big-O Cheatsheet</a>
+      <a href="https://www.youtube.com/channel/UCIqiLefbVHsOAXDAxQJH7Xw">AlgoRythmics: Orchestrated sorting to music!</a>
+    </footer>
       <script src="bubble-sort.js" type="text/javascript"></script>
   </body>
 </html>

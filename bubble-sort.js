@@ -1,4 +1,4 @@
-var n = 25;
+var n = 30;
 
 function randomSizedBar() {
   var w = Math.floor(Math.random()*500);
