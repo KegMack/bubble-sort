@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis|Droid+Sans);
+
+body {
+  background-color: black;
+}
+
+header {
+  background-image: url("../images/bubbles.jpg");
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  border-style: solid;
+  border-color: blue;
+  padding: 10px 10px;
+}
+
+.title-header {
+  font-size: 50;
+  font-family: 'Droid Sans', sans-serif;
+  color: #00FFFF;
+  text-align: center;
+}
+
+.main-article {
+  padding: 10px 20px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 24;
+  line-height: 1.4em;
+  color: #FFFF33;
+}
+
+strong {
+  font-size: 28;
+  color: #FFFFAA;
+}
+
+.bar {
+  clear: both;
+  height: 0.5em;
+  font-size: 8;
+  color: black;
+  line-height: 0;
+  display:block;
+  background-color: #00FFFF;
+  border-style: solid;
+  border-color: #0000FF;
+}
+
+button {
+  background-color: yellow;
+  font-family: 'Dosis', sans-serif;
+}
