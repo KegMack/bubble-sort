@@ -47,6 +47,10 @@ strong {
   color: #FFFFAA;
 }
 
+input {
+  width: 60;
+}
+
 .bar {
   clear: both;
   height: 0.5em;

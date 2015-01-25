@@ -41,6 +41,7 @@ function bubbleSort(nodeLocation) {
 };
 
 function initializeDiagram(nodeLocation) {
+  $('#sorting-animation').empty();
   for(var i=0; i<n; i++) {
     $(nodeLocation).append(randomSizedBar());
   }
@@ -52,7 +53,10 @@ $(function() {
       bubbleSort('#sorting-animation div');
   });
   $('#randomize-button').on('click', function() {
-    $('#sorting-animation').empty();
     initializeDiagram('#sorting-animation');
   });
+  $('#numberOfElements').change(function() {
+    n = $('#numberOfElements').val();
+    initializeDiagram('#sorting-animation');
+  })
 });
